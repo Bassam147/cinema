@@ -1,0 +1,426 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+.container{
+    padding: 0px;
+}
+.container .content .logo{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.container .content .nav-items{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    align-content: center;
+}
+.container .content .nav-items .items{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 0px;
+}
+.container .content .nav-items .items :hover{
+    color: #FFC80A;
+    text-decoration: none;
+}
+.container .content .nav-items .items .nav-items-logo{
+    display: flex;
+}
+.container .content .nav-items .items .nav-items-logo-active{
+    color: #FFC80A;
+}
+.nav-items-text{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.nav-items-text-active{
+    font-size: 22px;
+    text-decoration: none;
+    color: #FFC80A;
+    margin-left: 10px;
+}
+.container .content .nav-items .languages{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.container .content .nav-items .languages :hover{
+    color: #C69A63;
+    text-decoration: none;
+}
+.lang{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.container .content .nav-items .search-bar{
+    display: flex;
+    position: relative;
+    width: 17%;
+}
+.container .content .nav-items .search-bar .search-input{
+    position: absolute;
+    top: -15px;
+    border-radius: 0px;
+    border-color: #DEDEDE;
+}
+.container .content .nav-items .search-bar .search-icon{
+    position: absolute;
+    top: -10px;
+    left: 160px;
+}
+.container .content .movies{
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+}
+.container .content .movies .movie{
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 3px 6px;
+    border: solid 1px;
+    border-color: #DEDEDE;
+}
+.container .content .movies .movie .film-img{
+    width: 298px;
+    height: 250px;
+}
+.container .content .movies .movie .text{
+    padding: 20px;
+}
+.container .content .movies .movie .name{
+    font-size: 34px;
+    position: relative;
+}
+.container .content .movies .movie .des{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.container .content .header{
+    display: flex;
+    margin: 100px 0px;
+    position: relative;
+}
+.container .content .footer-items{
+    display: flex;
+}
+.container .content .footer-items :hover{
+    text-decoration: none;
+    color: #FFC80A;
+}
+.container .content .footer-items .footer-list{
+    margin-top: 0px;
+}
+.item-header{
+    font-size: 26px;
+    margin-bottom: 35px;
+    text-decoration: none;
+    color: black;
+}
+.item-selections{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+.container .content .footer-items .footer-list .social{
+    display: flex;
+}
+.container .content .footer-items .footer-list .social .face{
+    border: solid 1px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background-color: black;
+}
+.container .content .footer-items .footer-list .social .insta{
+    border: solid 1px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background-color: black;
+    margin-left: 10px;
+}
+.container .content .footer-items .footer-list .social .social-link{
+    text-decoration: none;
+    color: white;
+}
+.container .content .left .search-bar .search-input{
+    border: none;
+    margin-left: 20px;
+}
+.container .content-map{
+    display: flex;
+    margin-top: 100px;
+}
+.container .content .content-brand{
+    display: flex;
+}
+.container .content-map .left .catgouries .cat-row{
+    display: flex;
+    margin-top: 20px;
+} 
+.container .content-map .left .catgouries .cat-row .box{
+    border: solid 1px;
+    width: 120px;
+    height: 120px;
+    border-color:#DEDEDE;
+    box-shadow: 0px 3px 6px;
+    position: relative;
+}
+.container .content-map .left .catgouries .cat-row .box .catgoury{
+    position: absolute;
+    top: 25%;
+    right: 30%;
+}
+.container .content-map .left .catgouries .cat-row .box .catgoury-text{
+    position: absolute;
+    top: 70%;
+    right: 25%;
+    text-decoration: none;
+    color: black;
+}
+.container .content-map .left .catgouries .cat-row .loc-box{
+    border: solid 1px;
+    width: 266px;
+    height: 120px;
+    border-color:#DEDEDE;
+    box-shadow: 0px 3px 6px;
+    position: relative;
+}
+.container .content-map .left .catgouries .cat-row .loc-box .loc{
+    position: absolute;
+    top: 20%;
+    right: 35%;
+}
+.container .content-map .left .catgouries .cat-row .loc-box .loc-text{
+    position: absolute;
+    top: 60%;
+    right: 27%;
+}
+.container .content-map .left ,.container .content-brand .left{
+    width: 50%;
+}
+.container .content-map .right ,.container .content-brand .right{
+    width: 50%;
+    position: relative;
+}
+.container .content-map .right .map ,.container .content-brand .right .map{
+    width: 600px;
+    height: 400px;
+}
+.container .content .floor{
+    display: flex;
+}
+.container .content .floor .scores{
+    display: flex;
+    width: 40%;
+    margin: 0px;
+    margin-top: 0px;
+}
+.container .content .floor .scores .box{
+    border: solid 1px;
+    width: 145px;
+    height: 90px;
+    border-color:#DEDEDE;
+    position: relative;
+    margin-top: 20px;
+}
+.container .content .floor .scores .box .num{
+    font-size: 50px;
+    position: absolute;
+    right: 40%;
+    top: 10%;
+}
+.container .content .floor .scores .box-active .num-active{
+    font-size: 50px;
+    position: absolute;
+    right: 40%;
+    top: 10%;
+    color: #C69A63;
+}
+.container .content .floor .scores .box-active{
+    border: solid 1px;
+    width: 145px;
+    height: 90px;
+    position: relative;
+    border-color: #C69A63;
+    margin-top: 20px;
+}
+.container .content .floor .floor-brands{
+    margin-left: 100px;
+    width: 60%;
+    text-align: center;
+}
+.container .content .floor .floor-brands img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.container .content .news{
+    position: absolute;
+    top: 250px;
+    right: 720px;
+    color: #C69A63;
+}
+.container .content .content-map .right .number ,.container .content .content-brand .right .number{
+    position: absolute;
+    top: 0px;
+    right: 55px;
+}
+.container .content .content-map .right .floor-txt ,.container .content .content-brand .right .floor-txt{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+.container .content .content-map .right .st ,.container .content .content-brand .right .st{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+.container .content .content-brand .left{
+    margin: 0px;
+    margin-top: 40px;
+}
+.container .content .content-brand .right{
+    margin-top: 30px;
+}
+.container .content .content-brand .left .logo-lr{
+    margin: 70px 0px 50px 0px;
+}
+.container .content .content-brand .left .des{
+    font-size: 28px;
+}
+.container .content .content-brand .left .info{
+    margin-top: 20px;
+}
+.container .content .content-brand .left .info .brand-contact-num{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.container .content .content-brand .left .btn{
+    background-color: #FFFBF1;
+    display: flex;
+    margin: 40px 0px 0px 0px;
+    padding: 20px 10px;
+    width: 150px;
+    justify-content: space-between;
+}
+.container .content .content-brand .left .categories{
+    display: flex;
+} 
+.container .content .content-brand .left .categories .scroll-bar{
+    width: 25px;
+    height: 400px;
+    border: solid 1px;
+    margin: 0px;
+    border-radius: 13px;
+}
+.container .content .content-brand .left .categories .scroll-bar .scroll{
+    width: 23px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #C69A63;   
+}
+.container .content .content-brand .left .categories .brands-row{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+    justify-content: space-between;
+}
+.row .col-8 {
+    margin-top: 80px;
+}
+.row .col-4{
+    margin-top: 60px;
+}
+.container .content .row .col-8 .shopping-left img{
+    width: 750px;
+    height: 375px;
+}
+.row .col-8 .big-sale{
+    color: #C69A63;
+    font-size: 72px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.row .col-8 .des{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.container .content .row .col-4 .shopping-right .movie{
+    margin-top: 20px;
+    border: solid 1px;
+    border-color: #DEDEDE;
+    box-shadow: 0px 3px 6px;
+}
+.container .content .row .col-4 .shopping-right .movie img{
+    width: 330px;
+    height: 250px;
+}
+.container .content .row .col-4 .shopping-right .movie .name{
+    font-size: 34px;
+}
+.row .col-4 .shopping-right .movie .des{
+    font-size: 20px;
+}
+.row .col-4 .shopping-right .movie .text{
+    margin-left: 10px;
+    margin-top: 20px;
+} 
+.container .content .row .col-4 .shopping-right .col .new{
+    display: flex;
+}
+.container .content .row .col-4 .shopping-right .col .new div{
+    margin: 0px;
+    font-size: 34px;
+}
+.container .content .row .col-4 .shopping-right .col .new .see-all{
+    margin-left: 175px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.row .col-4 .iceman{
+    width: 300px;
+    height: 500px;
+}
+.row .col-6 span{
+    font-size: 60px;
+}
+.row .col-6 p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.row .col-6 .btn{
+    border: solid 1px;
+    border-color: #707070;
+    background-color: #FFC80A;
+    color: white;
+    padding: 10px 20px;
+}
+.row .col-6 .btn span{
+    font-size: 22px;
+}
+.film{
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.rec{
+    width: 1000px;
+    position: absolute;
+    top: 870px;
+    right: 230px;
+}
+.play-btn{
+    position: absolute;
+    right: 700px;
+    top: 1070px;
+}
